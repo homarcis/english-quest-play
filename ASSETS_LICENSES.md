@@ -1,6 +1,24 @@
 # Asset licenses
 
-Every visual or audio asset used in English Quest must be listed here (NFR-08). Only CC0 assets are allowed in the MVP.
+Every visual or audio asset used in English Quest must be listed here (NFR-08). Assets are either CC0 or original art owned by the project author (see "Original art" below).
+
+## Original art (S8, default look)
+
+Created by the project author, Homar Cisneros, with ChatGPT image generation, based on the game's earlier designs (2026-10-09). Owned by the author and used with the author's permission; not CC0. Files in `public/assets/art/`:
+
+| File | Made from | Processing |
+|---|---|---|
+| `hub.webp` | Plaza (1447×1087) | Scaled to 960×721 (Lanczos), cropped to 960×720, WebP q90 |
+| `cafe.webp` | Café interior (1672×941) | Scaled to 960×540 (Lanczos), WebP q90 |
+| `cafe-counter.webp` | Same café picture | Counter front cut out (x 553, y 176, 394×67) and drawn over the barista |
+| `player.png`, `clara.png`, `sam.png` | Character sprites (1254×1254, transparent) | Transparent border trimmed, scaled to 192 px high (shown at 76–100 px) |
+| `laptop.png` | Laptop sprite (1254×1254, transparent) | Trimmed, scaled to 96 px wide (shown at 52 px) |
+
+The separate Café and Academy building images were not needed (the plaza picture already contains both) and are not shipped.
+
+The classic look below (`VITE_LOOK=classic`) still uses the CC0 sprites and code-drawn shapes.
+
+## CC0 assets
 
 | Asset / pack | Files in the project | Author | Source URL | License | Date added |
 |---|---|---|---|---|---|
